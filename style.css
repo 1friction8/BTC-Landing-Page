@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+/* Base font */
+body {
+  font-family: "Bungee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Hover effect for navbar links */
+.nav-link:hover {
+  color: #ffc107 !important;
+  text-decoration: underline;
+  transition: all 0.3s ease-in-out;
+}
+
+/* General button styling */
+.btn {
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Custom hover for primary buttons (if used) */
+.btn-info:hover {
+  background-color: #17a2b8;
+  border-color: #117a8b;
+  color: white;
+}
+
+/* Contact section background */
+#contact {
+  background-color: #f8f9fa;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+/* Hero section - full height for all devices */
+#hero {
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Card image fix */
+.card-img-top {
+  object-fit: cover;
+  height: 200px;
+}
